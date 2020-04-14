@@ -5,7 +5,7 @@ using namespace std;
 
 int digital_root(int n)
 {
-    /*
+    // Trying for a true recursive solution
     int res = 0;
     if (n % 10 == n)
       return n;
@@ -16,6 +16,7 @@ int digital_root(int n)
     else
       digital_root(res);
    
+    // Accepted Solution: One while loop used.
       int res = 0;
       
       while (n != 0) {
@@ -27,8 +28,9 @@ int digital_root(int n)
         return digital_root(res);
       }
       return res;
-         */
+         
       /*
+      Rachel's attempts
       if ((n%10 == n) ? return n:return (n%10 + digital_root(n/10))) > 9 ){
         return digital_root(n);
       }
@@ -44,20 +46,7 @@ int digital_root(int n)
       if 
       return digital_root(n)
       
-      return n
-      
-      sum= 0
-      if 
-      if (n%10 == n){
-        return n;  
-      }
-      sum = n%10 + digital_root(n/10);
-      return sum
-      ) > 9
-      if 
-      return digital_root(n)
-      
-      return n
+      return n;
       */
  }
 int main(){
