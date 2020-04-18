@@ -12,7 +12,7 @@ bool is_isogram(std::string str) {
   
   //One loop to check for repeating characters
   for (int i = 0; i < str.length(); ++i) {
-      if (tolower(str[i]) == tolower(str[i + 1])) {
+      if (str[i] == str[i + 1]) {
           res = false; // if any matches, set res to false and break
           break;
           }
@@ -46,7 +46,7 @@ bool is_isogram(std::string str) {
   
   //One loop to check for repeating characters
   for (int i = 0; i < str.length(); ++i) {
-      if (tolower(str[i]) == tolower(str[i + 1])) {
+      if (str[i] == str[i + 1]) {
           res = false; // if any matches, set res to false and break
           break;
           }
