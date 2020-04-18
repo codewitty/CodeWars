@@ -1,4 +1,4 @@
-// Accepted Solution; 
+// Accepted Solution; Time complexity: O(n).
 
 bool is_isogram(std::string str) {
   bool res = true; // Variable to store result
@@ -19,3 +19,40 @@ bool is_isogram(std::string str) {
         }
    return res;
 }
+
+
+// Driver code for testing
+
+/*
+// Driver code for testing
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <cmath>
+#include <unordered_map>
+
+using namespace std;
+
+bool is_isogram(std::string str) {
+  bool res = true;
+  for (int i = 0; i < str.length() - 1; ++i) {
+    for (int j = i + 1; j < str.length(); ++j) {
+      if (tolower(str[i]) == tolower(str[j])) {
+          res = false;
+          break;
+          }
+        }
+      }
+   return res;
+}
+
+int main() {
+  string a = "Dermatoglyphics";
+  if (is_isogram(a))
+    cout << "HOORAY!!" << endl;
+  else
+    cout << "wonk wonk!!" << endl;
+  return 0;
+}
+*/
