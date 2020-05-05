@@ -5,18 +5,21 @@
 
 std::vector<std::string> solution(const std::string &s)
 {
+    // Declare variables to store temp string and final result
+    std::string temp;
     std::vector<std::string> res;
-    std::string ress;
+    
+    // Loop through string and add 2 characters to res if the second character is not NULL
     for (int i = 0; i < s.size(); i+=2) {
       if (s[i+1]){
         res.push_back(s.substr(i, 2));
       }
       else {
-        ress = s.substr(i,1) + '_';
-        res.push_back(ress);
+        temp = s.substr(i,1) + '_';
+        res.push_back(temp);
         }
     }
-    return res; // Your code here
+    return res;
 }
 
 //#######################################################
