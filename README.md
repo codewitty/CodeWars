@@ -13,21 +13,17 @@
 - [Create Phone Number](#create-phone-number)
 - [Digital Root](#digital-root)
 - [Equal Sides of an Array](#equal-sides-of-an-array)
-- [Create Phone Number](#create-phone-number)
-- [Create Phone Number](#create-phone-number)
-- [Create Phone Number](#create-phone-number)
-- [Create Phone Number](#create-phone-number)
-- [Create Phone Number](#create-phone-number)
+- [Find The Parity Outlier.cpp](#find-the-parity-outlier)
+- [Isograms](#isograms)
+- [Number of trailing zeros of N](#number-of-trailing-zeroes)
+- [Roman Numerals Encoder](#roman-numerals-encoder)
+- [ROT13](#rot13)
+- [Split Strings](#split-strings)
 
 ---
 
-### Create Phone Number
-- This function takes the input entered by the user in the form of a string
-  and validates it to ensure that the input doesn't contain invalid characters
-  or symbols. The number is then converted to an int or float as needed.
-  The function uses getline and 'find_if_not' from the algorithm library to 
-  perform the input validation. 
-- Find the function <a href="https://github.com/codewitty/myLibrary/blob/master/validate_number_input.cpp/" target="_blank">`here`</a>
+#### Create Phone Number
+- Find the function <a href="https://github.com/codewitty/CodeWars/blob/master/Create%20Phone%20Number.cpp/" target="_blank">`here`</a>
 
 ---
 
