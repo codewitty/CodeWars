@@ -28,4 +28,32 @@ int maxSequence(const vector<int>& arr){
             m = max(m,sum);
         }
         return m;
-    }
+}
+/****************************************************************************
+Driver Code
+#include <string>
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
+int maxSequence(const vector<int>& arr){
+  int m = 0;
+        int sum = 0;
+        for (size_t  i = 0; i < arr.size(); ++i) {
+            if (sum >= 0) {
+                sum = sum + arr[i];
+            }
+            else
+                sum = arr[i];
+            m = max(m,sum);
+        }
+        return m;
+}
+
+int main() {
+  vector<int> nums = {2, 1, 3, 4, -1, 2, 1, 5, 4};
+  cout << maxSequence(nums) << endl;
+  return 0;
+}
+****************************************************************************/
