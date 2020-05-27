@@ -15,6 +15,7 @@
 - [Equal Sides of an Array](#equal-sides-of-an-array)
 - [Find The Parity Outlier.cpp](#find-the-parity-outlier)
 - [Isograms](#isograms)
+- [Maximum Subarray Sum](#maximum-subarray-sum)
 - [Number of trailing zeros of N](#number-of-trailing-zeroes-of-n!)
 - [Roman Numerals Encoder](#roman-numerals-encoder)
 - [ROT13](#rot13)
@@ -44,6 +45,11 @@
 
 #### Isograms
 - Find the function <a href="https://github.com/codewitty/CodeWars/blob/master/Isograms.cpp/" target="_blank">`here`</a>
+
+---
+
+#### Maximum Subarray Sum
+- Find the function <a href="https://github.com/codewitty/CodeWars/blob/master/Maximum%20subarray%20sum.cpp/" target="_blank">`here`</a>
 
 ---
 
